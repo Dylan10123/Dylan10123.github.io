@@ -104,9 +104,19 @@ hr {
     margin-bottom: 100px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 920px) {
     /* Para movil: */
     .sidebar {
         width: 0px;
+    }
+
+    .body-text{
+        font-size: 28px;
+        width: 100%;
+    }
+
+    .titulo{
+        width: 100%;
+    
     }
   }
