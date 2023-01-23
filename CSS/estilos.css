@@ -129,5 +129,6 @@ hr {
 @media screen and (max-width: 920px) {
     .openbtn{
         margin-right: 0px;
+        padding: auto;
     }    
 }
