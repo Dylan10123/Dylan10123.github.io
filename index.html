@@ -77,6 +77,11 @@
         <p><cite>21/03/2022 - 05/06/2022</cite></p>
     </div>
 
+    
+    <div id="sombra" class="sombra">
+        
+    </div>
+
     <div id="mySidebar" class="sidebar">
         <div class="closebtn" onclick="closeNav()">×</div>
         <div>FOTO</div>
@@ -113,16 +118,17 @@
             <p><b>Inglés:</b> Intermedio, B1</p>
         </div>
     </div>
-
     
 
     <script>
         function openNav() {
+            document.getElementById("sombra").style.width = "100%";
             document.getElementById("mySidebar").style.width = "270px";
             document.getElementById("main").style.opacity = 0;
         }
 
         function closeNav() {
+            document.getElementById("sombra").style.width = "0%";
             document.getElementById("mySidebar").style.width = "0";
             document.getElementById("main").style.opacity = 100;
         }
