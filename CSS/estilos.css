@@ -109,14 +109,18 @@ hr {
     .sidebar {
         width: 0px;
     }
+  }
 
+@media screen and (max-width: 920px) {
     .body-text{
         font-size: 28px;
         width: 100%;
     }
+}
 
+@media screen and (max-width: 920px) {
     .titulo{
         width: 100%;
     
-    }
-  }
+    }    
+}
