@@ -1,0 +1,110 @@
+body {
+    background-color: gray;
+}
+
+h1 {
+    font-family: Arial;
+}
+
+h2 {
+    font-family: Helvetica;
+    color: rgb(44, 207, 106);
+    font-size: 24;
+}
+
+h3 {
+    font-family: Helvetica;
+}
+
+p {
+    font-family: Calibri;
+}
+
+li {
+    font-family: Calibri;
+}
+
+cite {
+    color: gray;
+}
+
+hr {
+    height: 2px;
+    background-color: black
+}
+
+.sidebar {
+    height: 100%;
+    width: 270px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    padding-top: 40px;
+    background-color: lightgray;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.sidebar div {
+    padding: 8px 8px 8px 30px;
+    font-size: 15px;
+    display: block;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+}
+
+#main {
+    transition: margin-right .5s;
+}
+
+.openbtn {
+    margin-top: 10px;
+    transition: 0.5s;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 18px;
+    cursor: pointer;
+    border: 1px solid black;
+    background-color: lightgrey;
+    padding-top: 4px;
+}
+
+
+.titulo {
+
+    text-align: center;
+    color: white;
+    background-color: rgb(66, 66, 66);
+    width: 60%;
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.body-text {
+    background-color: white;
+    font-size: 18px;
+    width: 60%;
+    border: 1px solid black;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* Para movil: */
+    .sidebar {
+        width: 0px;
+    }
+  }
