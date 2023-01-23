@@ -115,15 +115,13 @@ hr {
     .body-text{
         font-size: 28px;
         width: 100%;
-        margin: 0px;
+        margin: auto;
     }
 }
 
 @media screen and (max-width: 920px) {
     .titulo{
         width: 100%;
-        margin-left: 0px;
-        margin-top: 10px;
-        margin-right: 0px;
+        margin: auto;
     }    
 }
