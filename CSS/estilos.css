@@ -111,6 +111,7 @@ hr {
     /* Para movil: */
     .sidebar {
         width: 0px;
+        padding-bottom: 25px;
     }
   }
 
