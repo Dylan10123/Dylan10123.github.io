@@ -115,12 +115,19 @@ hr {
     .body-text{
         font-size: 28px;
         width: 100%;
+        margin: 0px;
     }
 }
 
 @media screen and (max-width: 920px) {
     .titulo{
         width: 100%;
-    
+        margin: 0px;
+    }    
+}
+
+@media screen and (max-width: 920px) {
+    .openbtn{
+        margin-right: 0px;
     }    
 }
