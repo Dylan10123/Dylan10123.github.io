@@ -94,6 +94,7 @@ hr {
 }
 
 .body-text {
+    text-align: justify;
     background-color: white;
     font-size: 18px;
     width: 60%;
@@ -116,6 +117,7 @@ hr {
         font-size: 28px;
         width: 100%;
         margin: auto;
+        padding: auto;
     }
 }
 
@@ -123,5 +125,6 @@ hr {
     .titulo{
         width: 100%;
         margin: auto;
+        padding: auto;
     }    
 }
