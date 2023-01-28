@@ -69,7 +69,7 @@ hr {
 .openbtn {
     margin-top: 10px;
     transition: 0.5s;
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 25px;
     font-size: 18px;
@@ -108,14 +108,15 @@ hr {
 }
 
 @media screen and (max-width: 1200px) {
+
     /* Para movil: */
     .sidebar {
         width: 0px;
     }
-  }
+}
 
 @media screen and (max-width: 1200px) {
-    .body-text{
+    .body-text {
         font-size: 28px;
         width: 100%;
         margin: auto;
@@ -124,10 +125,11 @@ hr {
 }
 
 @media screen and (max-width: 1200px) {
-    .titulo{
+    .titulo {
         width: 100%;
-    }    
-    .openbtn{
+    }
+
+    .openbtn {
         right: 5px;
     }
 
